@@ -1,6 +1,3 @@
-
---KPI'S REQUIREMENTS ( Key Performance Indicator)
-
 SELECT * FROM pizza_sales
 
 --total revenue
@@ -27,8 +24,6 @@ SELECT SUM(quantity) / COUNT(DISTINCT order_id) AS Avg_Pizzas_Per_Order FROM piz
 
 SELECT CAST(SUM(quantity) AS DECIMAL(10, 2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10, 2)) AS Avg_Pizzas_Per_Order FROM pizza_sales;
 
-
---CHARTS REQUIREMENTS
 
 --daily trend for total orders 
 
